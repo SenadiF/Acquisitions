@@ -4,6 +4,16 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "imports": {
+    "#config/*": "./src/config/*",
+    "#models/*": "./src/models/*",
+    "#controllers/*": "./src/controllers/*",
+    "#utils/*": "./src/utils/*",
+    "#middleware/*": "./src/middlewares/*",
+    "#services/*": "./src/services/*",
+    "#validations/*": "./src/validations/*",
+    "#routers/*": "./src/routers/*"
+  },
   "scripts": {
     "dev": "node --watch src/index.js",
     "lint": "eslint . ",
@@ -27,8 +37,13 @@
   "homepage": "https://github.com/SenadiF/Acquisitions#readme",
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.3.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
