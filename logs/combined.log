@@ -17,3 +17,13 @@
 {"level":"info","message":"::1 - - [18/Mar/2026:16:22:34 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-18T16:22:34.072Z"}
 {"level":"info","message":"Hello From Acquisitions!","service":"acquisitions-api","timestamp":"2026-03-18T19:29:24.557Z"}
 {"level":"info","message":"::1 - - [18/Mar/2026:19:29:24 +0000] \"GET / HTTP/1.1\" 200 25 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:29:24.579Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:19:30:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:30:52.332Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:19:31:05 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:31:05.814Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:19:31:06 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:31:06.263Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:19:31:06 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:31:06.477Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:19:31:06 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:31:06.725Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:19:31:07 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:31:07.155Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","timestamp":"2026-03-18T19:31:07.453Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Mar/2026:19:31:07 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:31:07.454Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","timestamp":"2026-03-18T19:31:07.704Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Mar/2026:19:31:07 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-03-18T19:31:07.705Z"}
