@@ -1,3 +1,6 @@
 node_modules
 .env
-Drizzle.docx
+Drizzle.docx.neon_local/
+.env.development
+.env.production
+.neon_local/

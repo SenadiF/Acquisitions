@@ -15,15 +15,19 @@
     "#routers/*": "./src/routers/*"
   },
   "scripts": {
-    "dev": "node --watch src/index.js",
-    "lint": "eslint . ",
-    "lint:fix": "eslint . --fix",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "db:generate": "npx drizzle-kit-generate ",
-    "db:migrate": "npx drizzle-kit-migrate ",
-    "db:studio": "npx drizzle-kit-studio"
-  },
+  "dev": "node --watch src/index.js",
+  "start": "node src/index.js",
+  "lint": "eslint .",
+  "lint:fix": "eslint . --fix",
+  "format": "prettier --write .",
+  "format:check": "prettier --check .",
+
+  "db:generate": "npx drizzle-kit generate",
+  "db:migrate": "npx drizzle-kit push",
+  "db:studio": "npx drizzle-kit studio",
+
+  "dev:docker": "bash ./scripts/dev.sh"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SenadiF/Acquisitions.git"
