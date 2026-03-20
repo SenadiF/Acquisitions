@@ -30,5 +30,6 @@ app.get('/api',(req,res)=>{
 });
 
 app.use('/api/auth',authRoutes);
+app.use*('/api/users',import('#routers/users.routes.js'));
 
 export default app;
