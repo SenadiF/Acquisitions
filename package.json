@@ -26,7 +26,8 @@
   "db:migrate": "npx drizzle-kit push",
   "db:studio": "npx drizzle-kit studio",
 
-  "dev:docker": "bash ./scripts/dev.sh"
+  "dev:docker": "bash ./scripts/dev.sh",
+  "prod:docker": "bash ./scripts/prod.sh"
 },
   "repository": {
     "type": "git",
