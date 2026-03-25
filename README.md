@@ -113,8 +113,8 @@ docker run -p 3000:3000 backend-app
 ```
 ⚡ Local Setup
 ```c
-git clone <your-repo>
-cd <your-project>
+git clone https://github.com/SenadiF/Acquisitions.git
+cd acquisitions
 
 npm install
 npm run dev
